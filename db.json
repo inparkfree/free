@@ -1,8 +1,364 @@
 {
-  "posts": [
+  "resultDetail": [
     {
       "id": 1,
-      "title": "hello"
+      "defaultInfo": {
+        "duration":"20.8.24(월) - 20.8.29(토)",
+        "cities":"파리 - 니스 - 리옹 - 바르셀로나 - 로마 - 피렌체 - 파리 - 니스 - 리옹 - 바르셀로나 - 로마 - 피렌체"
+      },
+      "tabs": [
+        {"tab":"여행 일정"},
+        {"tab":"예상 견적"}
+      ],
+      "dayDetail":[
+        {
+          "id":1,
+          "title":"1일차 8.24(월)",
+          "items":[
+            {
+              "id":100,
+              "seq":0,
+              "type":"AIR",
+              "isUserInput":false,
+              "status":"RESERVED",
+              "resNo":"OZ239760",
+              "startCity":"인천(ICN)",
+              "endCity":"니스(NCE)",
+              "airline":"아시아나",
+              "airlineLogo":"",
+              "airlineNo":"OZ629",
+              "duration":"12시간 10분",
+              "startAirport":"",
+              "endAirport":"샤를 드 골 공항",
+              "resType":"편도",
+              "startTime":"13:20",
+              "endTime":"18:30",
+              "addDay":"+1",
+              "grade":"",
+              "peopleCnt":"",
+              "price":"",
+              "transferCnt":"",
+              "airStatus":"탑승시간 60분 지연, 13:00 출발 예정",
+              "terminal":"1",
+              "gateNo":"121",
+              "airport": {
+                "id":1000,
+                "airport":"샤를 드 골 공항",
+                "city":"파리",
+                "rating":4,
+                "reviewCnt":8912,
+                "startTime":"13:20",
+                "endTime":"10:30",
+                "duration":"2시간 소요",
+                "image":""
+              },
+              "rentCar": {
+                "id":2000,
+                "city":"파리",
+                "isShow":true,
+                "link":""
+              }
+            },
+            {
+              "id":500,
+              "seq":1,
+              "type":"MOVE",
+              "isUserInput":false,
+              "moveType":"BUS",
+              "distance":"16.5km",
+              "time":"1시간 30분",
+              "lineNo":"70",
+              "startDate":"",
+              "startCity":"",
+              "endCity":"",
+              "startStation":"Station J.C.Bermond",
+              "endStation":"",
+              "startTime":"",
+              "endTime":"",
+              "isRound":""
+            },
+            {
+              "id":200,
+              "seq":2,
+              "type":"HOTEL",
+              "status":"RESERVED",
+              "resNo":"20193456",
+              "city":"파리",
+              "checkIn":"8.24(월)",
+              "checkOut":"8.25(화)",
+              "dates":"2",
+              "hotel":"풀만 파리 타워 에펠",
+              "hotelEn":"",
+              "hotelType":"",
+              "image":"",
+              "grade":"",
+              "address":"",
+              "isSale":"",
+              "geo":"",
+              "aresa":"",
+              "room":"",
+              "peopleCnt":"",
+              "price":"",
+              "rating":"4",
+              "reviewCnt":"8912",
+              "jjimCnt":""
+            },
+            {
+              "id":501,
+              "seq":3,
+              "type":"MOVE",
+              "isUserInput":false,
+              "moveType":"TRAIL",
+              "distance":"10km",
+              "time":"50분",
+              "lineNo":"TER 881100",
+              "startDate":"",
+              "startCity":"",
+              "endCity":"",
+              "startStation":"Grasse",
+              "endStation":"",
+              "startTime":"",
+              "endTime":"",
+              "isRound":""
+            },
+            {
+              "id":300,
+              "seq":4,
+              "type":"POI",
+              "isUserInput":false,
+              "place":"관광지",
+              "city":"파리",
+              "poi":"에투알 개선문",
+              "startTime":"11:39",
+              "endTime":"17:00",
+              "category1":"건축",
+              "category2":"건축물",
+              "image":"",
+              "coupon":{
+                "id":3000,
+                "title":"니스 전망대 입장권 5% 할인",
+                "qrcode":"123456789",
+                "link":""
+              },
+              "geo":"",
+              "rating":"5",
+              "reviewCnt":"1250",
+              "subMenu":[],
+              "subActivity":[
+                {
+                  "id":400,
+                  "type":"ACTIVITY",
+                  "isUserInput":false,
+                  "status":"RESERVED",
+                  "resNo":"20201234",
+                  "city":"파리",
+                  "activity":"파리 팔레 루아얄 정원 자전거 힐링 투어 4시간",
+                  "date":"",
+                  "duration":"6시간 소요",
+                  "category1":"워킹투어",
+                  "category2":"",
+                  "image":"",
+                  "poi":"",
+                  "peopleCnt":"",
+                  "rating":"4",
+                  "reviewCnt":"1234"
+                },
+                {
+                  "id":401,
+                  "type":"ACTIVITY",
+                  "isUserInput":false,
+                  "status":"MINPRICE",
+                  "resNo":"",
+                  "city":"파리",
+                  "activity":"알렉산드로 3세 다리 O투어",
+                  "date":"",
+                  "duration":"6시간 소요",
+                  "category1":"워킹투어",
+                  "category2":"",
+                  "image":"",
+                  "poi":"",
+                  "peopleCnt":"",
+                  "rating":"3",
+                  "reviewCnt":"34"
+                }
+              ]
+            },
+            {
+              "id":502,
+              "seq":5,
+              "type":"MOVE",
+              "isUserInput":true,
+              "moveType":"RENTCAR",
+              "distance":"",
+              "time":"50분",
+              "lineNo":"TER 881100",
+              "startDate":"8.24(월)",
+              "startTime":"오후 12:17",
+              "startCity":"니스",
+              "startPlace":"NICE CITY",
+              "endDate":"8.24(월)",
+              "endTime":"오후 16:40",
+              "endCity":"파리",
+              "endPlace":"PARIS GARE DE LYON",
+              "startStation":"",
+              "endStation":"",
+              "isRound":"",
+              "memo":{
+                "id":"601",
+                "seq": 0,
+                "type":"MEMO",
+                "isUserInput":true,
+                "memo":"블라블라"
+              }
+            },
+            {
+              "id":301,
+              "seq":6,
+              "type":"POI",
+              "isUserInput":false,
+              "place":"맛집",
+              "city":"파리",
+              "poi":"핏자치로 마일 레스토랑",
+              "startTime":"11:30",
+              "endTime":"22:00",
+              "category1":"카페",
+              "category2":"디저트",
+              "image":"",
+              "coupon":{
+                "id":3001,
+                "title":"맛집 5% 할인",
+                "qrcode":"987654321",
+                "link":""
+              },
+              "geo":"",
+              "rating":"3",
+              "reviewCnt":"4567",
+              "subMenu":[
+                {
+                  "id":700,
+                  "title":"수퍼 라자냐 피자",
+                  "price":"9.3 유로",
+                  "imageCnt":"7",
+                  "image":""
+                },
+                {
+                  "id":701,
+                  "title":"링귀니 알라 치로",
+                  "price":"16 유로",
+                  "imageCnt":"3",
+                  "image":""
+                }
+              ],
+              "subActivity":[]
+            },
+            {
+              "id":"600",
+              "seq": 7,
+              "type":"MEMO",
+              "isUserInput":true,
+              "memo":"드럭스토어에서 마티텀 앰플, 과자사기\n시간 날 때 현지 투어 알아보기 맛집 미리미리 알아보기 쇼핑 블라블라",
+            }
+          ]
+        }
+      ],
+      "talk":{
+        "isShow":"true"
+      },
+      "pkgSearch":{
+        "isShow":"true"
+      },
+      "activity":[
+        {
+          "id":1000,
+          "city":"파리",
+          "items":[
+            {
+              "id":410,
+              "title":"파리 뮤지엄 패스 48/96/144시간권 (공항 수령)",
+              "type":"즉시사용",
+              "price":"63000",
+              "image":"",
+              "isJjim":false
+            },
+            {
+              "id":411,
+              "title":"파리 시내 투어 (스냅사진 50장 무한 유료)",
+              "type":"예약 후 사용",
+              "price":"190000",
+              "image":"",
+              "isJjim":true
+            }
+          ]
+        },
+        {
+          "id":1001,
+          "city":"니스",
+          "items":[
+            {
+              "id":420,
+              "title":"니스 뮤지엄 패스 48/96/144시간권 (공항 수령)",
+              "type":"즉시사용",
+              "price":"63000",
+              "image":"",
+              "isJjim":false
+            },
+            {
+              "id":421,
+              "title":"니스 시내 투어 (스냅사진 50장 무한 유료)",
+              "type":"예약 후 사용",
+              "price":"190000",
+              "image":"",
+              "isJjim":true
+            }
+          ]
+        }
+      ],
+      "pkgProduct":[
+        {
+          "id":1000,
+          "city":"파리",
+          "items":[
+            {
+              "id":410,
+              "title":"파리 & 니스 외 3개 도시 서유럽 환상투어",
+              "type":"",
+              "price":"2190000",
+              "image":"",
+              "isJjim":false
+            },
+            {
+              "id":411,
+              "title":"파리, 베니스, 로마 블라블라",
+              "type":"",
+              "price":"1230000",
+              "image":"",
+              "isJjim":true
+            }
+          ]
+        },
+        {
+          "id":1001,
+          "city":"니스",
+          "items":[
+            {
+              "id":410,
+              "title":"니스 & 니스 외 3개 도시 서유럽 환상투어",
+              "type":"",
+              "price":"2190000",
+              "image":"",
+              "isJjim":false
+            },
+            {
+              "id":411,
+              "title":"니스, 베니스, 로마 블라블라",
+              "type":"",
+              "price":"1230000",
+              "image":"",
+              "isJjim":true
+            }
+          ]
+        }
+      ]
     }
   ],
   "profile": {
