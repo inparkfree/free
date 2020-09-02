@@ -208,7 +208,7 @@
                "endStation":"",
                "isRound":"",
                "memo":{
-                  "id":"601",
+                  "id":601,
                   "seq":0,
                   "type":"MEMO",
                   "isUserInput":true,
@@ -258,7 +258,7 @@
                ]
             },
             {
-               "id":"600",
+               "id":600,
                "seq":7,
                "type":"MEMO",
                "isUserInput":true,
@@ -461,7 +461,7 @@
                "endStation":"",
                "isRound":"",
                "memo":{
-                  "id":"601",
+                  "id":601,
                   "seq":0,
                   "type":"MEMO",
                   "isUserInput":true,
@@ -511,7 +511,7 @@
                ]
             },
             {
-               "id":"600",
+               "id":600,
                "seq":7,
                "type":"MEMO",
                "isUserInput":true,
