@@ -521,10 +521,10 @@
       }
    ],
    "talk":{
-      "isShow":"true"
+      "isShow":true
    },
    "pkgSearch":{
-      "isShow":"true"
+      "isShow":true
    },
    "activity":[
       {
