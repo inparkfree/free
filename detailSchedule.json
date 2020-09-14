@@ -16,9 +16,9 @@
       {
          "id":1,
          "title":"1일차 8.24(월)",
-         "items":[
+         "items":[            
             {
-               "id":100,
+               "id":111,
                "seq":0,
                "type":"AIR",
                "isUserInput":false,
@@ -40,10 +40,10 @@
                "peopleCnt":"",
                "price":"",
                "transferCnt":"",
-               "notiType":"",
+               "notiType":"DELAY",
                "noti":"탑승시간 60분 지연, 13:00 출발 예정",
                "isAirportInfo":false,
-               "isWriteMemo":false,
+               "isWriteMemo":true,
                "isReadMemo":false,
                "terminal":"1",
                "gateNo":"121",
@@ -64,24 +64,6 @@
                   "isShow":true,
                   "link":""
                }
-            },
-            {
-               "id":500,
-               "seq":1,
-               "type":"MOVE",
-               "isUserInput":false,
-               "moveType":"BUS",
-               "distance":"16.5km",
-               "time":"1시간 30분",
-               "lineNo":"70",
-               "startDate":"",
-               "startCity":"",
-               "endCity":"",
-               "startStation":"Station J.C.Bermond",
-               "endStation":"",
-               "startTime":"",
-               "endTime":"",
-               "isRound":""
             },
             {
                "id":200,
@@ -108,24 +90,6 @@
                "rating":"4",
                "reviewCnt":"8912",
                "jjimCnt":""
-            },
-            {
-               "id":501,
-               "seq":3,
-               "type":"MOVE",
-               "isUserInput":false,
-               "moveType":"TRAIL",
-               "distance":"10km",
-               "time":"50분",
-               "lineNo":"TER 881100",
-               "startDate":"",
-               "startCity":"",
-               "endCity":"",
-               "startStation":"Grasse",
-               "endStation":"",
-               "startTime":"",
-               "endTime":"",
-               "isRound":""
             },
             {
                "id":300,
@@ -190,34 +154,24 @@
                      "reviewCnt":"34"
                   }
                ]
-            },
+            },            
             {
-               "id":502,
+               "id":511,
                "seq":5,
                "type":"MOVE",
                "isUserInput":true,
-               "moveType":"RENTCAR",
-               "distance":"",
-               "time":"50분",
-               "lineNo":"TER 881100",
-               "startDate":"8.24(월)",
-               "startTime":"오후 12:17",
-               "startCity":"니스",
-               "startPlace":"NICE CITY",
-               "endDate":"8.24(월)",
-               "endTime":"오후 16:40",
-               "endCity":"파리",
-               "endPlace":"PARIS GARE DE LYON",
-               "startStation":"",
-               "endStation":"",
-               "isRound":"",
-               "memo":{
-                  "id":601,
-                  "seq":0,
-                  "type":"MEMO",
-                  "isUserInput":true,
-                  "memo":"블라블라"
-               }
+               "moveType":"TRAIN",
+               "title":"렌터카·48시간 이용",
+               "notiType":"NONE",
+               "noti":"",
+               "desc":"",
+               "eurailPass":"",
+               "startDateTime":"8.24(월) 오후 12:17",
+               "endDateTime":"8.24(월) 오후 16:40",
+               "startPlace":"PARIS GARE DE LYON",
+               "endPlace":"Station J.C.Bermond",
+               "isWriteMemo":false,
+               "isReadMemo":false
             },
             {
                "id":301,
@@ -506,6 +460,84 @@
 				 "isSearchRoute":false,
 				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg"
 			  }
+         ]
+      },
+      {
+         "id":4,
+         "title":"4일차 8.25(화)",
+         "items":[
+            {
+               "id":500,
+               "seq":0,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"TRAIN",
+               "title":"기차·48시간 이용",
+               "notiType":"NONE",
+               "noti":"",
+               "desc":"",
+               "eurailPass":"",
+               "startDateTime":"8.24(월) 오후 12:17",
+               "endDateTime":"8.24(월) 오후 16:40",
+               "startPlace":"PARIS GARE DE LYON",
+               "endPlace":"Station J.C.Bermond",
+               "isWriteMemo":false,
+               "isReadMemo":false
+            },
+            {
+               "id":501,
+               "seq":1,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"TRAIN",
+               "title":"렌터카·48시간 이용",
+               "notiType":"NONE",
+               "noti":"",
+               "desc":"",
+               "eurailPass":"",
+               "startDateTime":"8.24(월) 오후 12:17",
+               "endDateTime":"8.24(월) 오후 16:40",
+               "startPlace":"PARIS GARE DE LYON",
+               "endPlace":"Station J.C.Bermond",
+               "isWriteMemo":false,
+               "isReadMemo":false
+            },
+            {
+               "id":502,
+               "seq":2,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"EURAIL",
+               "title":"유레일",
+               "notiType":"NONE",
+               "noti":"",
+               "desc":"2일간, 5개월 내 사용",
+               "eurailPass":"유레일 글로벌 플랙시 패스",
+               "startDateTime":"8.24(월) 오후 12:17",
+               "endDateTime":"8.24(월) 오후 16:40",
+               "startPlace":"PARIS GARE DE LYON",
+               "endPlace":"Station J.C.Bermond",
+               "isWriteMemo":false,
+               "isReadMemo":true
+            },
+            {
+               "id":503,
+               "seq":3,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"RENTCAR",
+               "title":"렌터카·48시간 이용",
+               "notiType":"WRONG_INFO",
+               "noti":"기본조건과 상품정보가 맞지 않습니다.",
+               "desc":"2일간, 5개월 내 사용",
+               "eurailPass":"유레일 글로벌 플랙시 패스",
+               "startDateTime":"8.24(월) 오후 12:17",
+               "endDateTime":"8.24(월) 오후 16:40",
+               "startPlace":"PARIS GARE DE LYON",
+               "endPlace":"Station J.C.Bermond",
+               "isWriteMemo":true,
+               "isReadMemo":false
+            }
          ]
       }
    ],
