@@ -307,7 +307,7 @@
             },
 			{
                "id":101,
-               "seq":0,
+               "seq":1,
                "type":"AIR",
                "isUserInput":true,
                "status":"USER_INPUT",
@@ -349,7 +349,7 @@
             },
 			{
                "id":102,
-               "seq":0,
+               "seq":2,
                "type":"AIR",
                "isUserInput":false,
                "status":"",
@@ -380,7 +380,7 @@
             },
 			{
                "id":103,
-               "seq":0,
+               "seq":3,
                "type":"AIR",
                "isUserInput":false,
                "status":"RESERVED",
@@ -411,7 +411,7 @@
             },
 			{
                "id":104,
-               "seq":0,
+               "seq":4,
                "type":"AIR",
                "isUserInput":false,
                "status":"RESERVED",
@@ -468,7 +468,7 @@
 			  },				  
 			  {
 				 "id":402,
-				 "seq":0,
+				 "seq":1,
 				 "type":"ACTIVITY",
 				 "isUserInput":true,
 				 "city":"파리",
@@ -488,7 +488,7 @@
 			  },
 			  {
 				 "id":403,
-				 "seq":0,
+				 "seq":2,
 				 "type":"ACTIVITY",
 				 "isUserInput":false,
 				 "city":"파리",
