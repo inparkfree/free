@@ -300,7 +300,7 @@
                "notiType":"DELAY",
                "noti":"탑승시간 60분 지연, 13:00 출발 예정",
                "isAirportInfo":false,
-               "isWriteMemo":false,
+               "isWriteMemo":true,
                "isReadMemo":false,
                "terminal":"1",
                "gateNo":"121"
@@ -332,7 +332,7 @@
                "noti":"항공편 결항. 담당자에게 문의해보세요.",
                "isAirportInfo":true,
                "isWriteMemo":false,
-               "isReadMemo":false,
+               "isReadMemo":true,
                "terminal":"1",
                "gateNo":"121",
                "airport":{
@@ -440,6 +440,69 @@
                "terminal":"1",
                "gateNo":"121"
             }
+         ]
+      },
+      {
+         "id":3,
+         "title":"3일차 8.25(화)",
+         "items":[
+			  {
+				 "id":401,
+				 "seq":0,
+				 "type":"ACTIVITY",
+				 "isUserInput":false,
+				 "city":"파리",
+				 "resType":"RESERVED",
+				 "resNo":"20193456",
+				 "title":"알렉산드로 3세 다리 O투어",
+				 "noti":"",
+				 "ratio":3.5,
+				 "voteCnt":123456,
+				 "category":"워킹투어/선셋",
+				 "desc":"8.24(월) 18:00, 6시간 소요",
+				 "isWriteMemo":false,
+				 "isReadMemo":false,
+				 "isSearchRoute":false,
+				 "image":""
+			  },				  
+			  {
+				 "id":402,
+				 "seq":0,
+				 "type":"ACTIVITY",
+				 "isUserInput":true,
+				 "city":"파리",
+				 "resType":"USER_INPUT",
+				 "resNo":"",
+				 "title":"알렉산드로 3세 다리 O투어",
+				 "noti":"기본 조건과 상품 정보가 상이합니다.",
+				 "ratio":3.5,
+				 "voteCnt":123456,
+				 "category":"워킹투어/선셋",
+				 "desc":"8.24(월) 18:00, 6시간 소요",
+				 "isWriteMemo":true,
+				 "isReadMemo":false,
+				 "isSearchRoute":true,
+				 "image":""
+			  },
+			  {
+				 "id":403,
+				 "seq":0,
+				 "type":"ACTIVITY",
+				 "isUserInput":false,
+				 "city":"파리",
+				 "resType":"",
+				 "resNo":"",
+				 "title":"알렉산드로 3세 다리 O투어",
+				 "noti":"판매완료! 다른 액티비티로 변경하세요.",
+				 "ratio":3.5,
+				 "voteCnt":123456,
+				 "category":"워킹투어/선셋",
+				 "desc":"8.24(월) 18:00, 6시간 소요",
+				 "isWriteMemo":false,
+				 "isReadMemo":true,
+				 "isSearchRoute":false,
+				 "image":""
+			  }
          ]
       }
    ],
