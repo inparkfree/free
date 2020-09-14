@@ -455,6 +455,7 @@
 				 "resType":"RESERVED",
 				 "resNo":"20193456",
 				 "title":"알렉산드로 3세 다리 O투어",
+				 "notiType":"",
 				 "noti":"",
 				 "ratio":3.5,
 				 "voteCnt":123456,
@@ -463,7 +464,7 @@
 				 "isWriteMemo":false,
 				 "isReadMemo":false,
 				 "isSearchRoute":false,
-				 "image":""
+				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg"
 			  },				  
 			  {
 				 "id":402,
@@ -474,6 +475,7 @@
 				 "resType":"USER_INPUT",
 				 "resNo":"",
 				 "title":"알렉산드로 3세 다리 O투어",
+				 "notiType":"",
 				 "noti":"기본 조건과 상품 정보가 상이합니다.",
 				 "ratio":3.5,
 				 "voteCnt":123456,
@@ -482,7 +484,7 @@
 				 "isWriteMemo":true,
 				 "isReadMemo":false,
 				 "isSearchRoute":true,
-				 "image":""
+				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg"
 			  },
 			  {
 				 "id":403,
@@ -493,6 +495,7 @@
 				 "resType":"",
 				 "resNo":"",
 				 "title":"알렉산드로 3세 다리 O투어",
+				 "notiType":"SOLD_OUT",
 				 "noti":"판매완료! 다른 액티비티로 변경하세요.",
 				 "ratio":3.5,
 				 "voteCnt":123456,
@@ -501,7 +504,7 @@
 				 "isWriteMemo":false,
 				 "isReadMemo":true,
 				 "isSearchRoute":false,
-				 "image":""
+				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg"
 			  }
          ]
       }
