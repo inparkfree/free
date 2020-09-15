@@ -638,6 +638,95 @@
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg"
 			}
          ]
+      },
+	  {
+         "id":6,
+         "title":"6일차 8.25(화)",
+         "items":[
+            {
+               "id":520,
+               "seq":0,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"PLACE",
+               "moveType2":"버스",
+               "distance":"16.5km",
+               "duration":"1시간 30분",
+               "station":[
+					{
+						"type":"",
+						"number":"70",
+						"station":"Station J.C.Bermond"
+					}
+			   ]
+            },			
+            {
+               "id":521,
+               "seq":1,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"PLACE",
+               "moveType2":"기차",
+               "distance":"10km",
+               "duration":"50분",
+               "station":[
+					{
+						"type":"",
+						"number":"TER 881100",
+						"station":"Grasse"
+					}
+			   ]
+            },
+            {
+               "id":522,
+               "seq":2,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"PLACE",
+               "moveType2":"기차",
+               "distance":"10km",
+               "duration":"50분",
+               "station":[
+					{
+						"type":"기차",
+						"number":"TER 881100",
+						"station":"Grasse"
+					},
+					{
+						"type":"버스",
+						"number":"70",
+						"station":"Station J.C.Bermond"
+					},
+					{
+						"type":"버스",
+						"number":"59",
+						"station":"Station J.C.Bermond"
+					}
+			   ]
+            },
+            {
+               "id":523,
+               "seq":3,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"PLACE",
+               "moveType2":"도보",
+               "distance":"900m",
+               "duration":"17분",
+               "station":[ ]
+            },
+            {
+               "id":524,
+               "seq":4,
+               "type":"MOVE",
+               "isUserInput":true,
+               "moveType":"PLACE",
+               "moveType2":"자동차",
+               "distance":"7.9km",
+               "duration":"20분",
+               "station":[ ]
+            }
+         ]
       }
    ],
    "talk":{
