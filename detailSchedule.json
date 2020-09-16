@@ -99,7 +99,7 @@
 				"openStatus":"OPEN",
 				"openTime":"11:30 ~ 17:00",
 				"category":"건축/건축물",
-				"isCoupon":null,
+				"coupon":null,
 				"isWriteMemo":true,
 				"isReadMemo":false,
 				"isSearchRoute":true,
@@ -141,7 +141,7 @@
 				"openStatus":"OPEN",
 				"openTime":"11:30 ~ 17:00",
 				"category":"건축/건축물",
-				"isCoupon":null,
+				"coupon":null,
 				"isWriteMemo":true,
 				"isReadMemo":false,
 				"isSearchRoute":true,
@@ -687,7 +687,7 @@
 				"openStatus":"OPEN",
 				"openTime":"11:30 ~ 17:00",
 				"category":"건축/건축물",
-				"isCoupon":{
+				"coupon":{
 					"id":3001,
 					"title":"맛집 5% 할인",
 					"qrcode":"987654321",
@@ -776,7 +776,7 @@
 				"openStatus":"OPEN",
 				"openTime":"11:30 ~ 17:00",
 				"category":"건축/건축물",
-				"isCoupon":{
+				"coupon":{
 					"id":3001,
 					"title":"맛집 5% 할인",
 					"qrcode":"987654321",
@@ -819,7 +819,7 @@
 				"openStatus":"OPEN",
 				"openTime":"11:30 ~ 17:00",
 				"category":"건축/건축물",
-				"isCoupon":{
+				"coupon":{
 					"id":3001,
 					"title":"맛집 5% 할인",
 					"qrcode":"987654321",
@@ -847,7 +847,7 @@
 				"openStatus":"OPEN",
 				"openTime":"11:30 ~ 17:00",
 				"category":"건축/건축물",
-				"isCoupon":{
+				"coupon":{
 					"id":3001,
 					"title":"맛집 5% 할인",
 					"qrcode":"987654321",
@@ -875,7 +875,7 @@
 				"openStatus":"CLOSE",
 				"openTime":"11:30 ~ 17:00",
 				"category":"건축/건축물",
-				"isCoupon":{
+				"coupon":{
 					"id":3001,
 					"title":"맛집 5% 할인",
 					"qrcode":"987654321",
