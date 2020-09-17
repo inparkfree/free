@@ -908,7 +908,8 @@
                "type":"즉시사용",
                "price":"63000",
                "image":"",
-               "isJjim":false
+               "isJjim":false,
+			   "isMore":false
             },
             {
                "id":411,
@@ -916,7 +917,8 @@
                "type":"예약 후 사용",
                "price":"190000",
                "image":"",
-               "isJjim":true
+               "isJjim":true,
+			   "isMore":false
             }
          ]
       },
@@ -930,7 +932,8 @@
                "type":"즉시사용",
                "price":"63000",
                "image":"",
-               "isJjim":false
+               "isJjim":false,
+			   "isMore":true
             },
             {
                "id":421,
@@ -938,7 +941,8 @@
                "type":"예약 후 사용",
                "price":"190000",
                "image":"",
-               "isJjim":true
+               "isJjim":true,
+			   "isMore":true
             }
          ]
       }
