@@ -897,7 +897,7 @@
    "pkgSearch":{
       "isShow":true
    },
-   "activity":[
+   "prdActivity":[
       {
          "id":1000,
          "city":"파리",
@@ -947,7 +947,7 @@
          ]
       }
    ],
-   "pkgProduct":[
+   "prdPackage":[
       {
          "id":1000,
          "city":"파리",
