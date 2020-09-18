@@ -46,25 +46,33 @@
                "isWriteMemo":true,
                "isReadMemo":false,
                "terminal":"1",
-               "gateNo":"121",
-               "airport":{
-                  "id":1000,
-                  "airport":"샤를 드 골 공항",
-                  "city":"파리",
-                  "rating":4,
-                  "reviewCnt":8912,
-                  "startTime":"13:20",
-                  "endTime":"10:30",
-                  "duration":"2시간 소요",
-                  "image":""
-               },
-               "rentCar":{
-                  "id":2000,
-                  "city":"파리",
-                  "isShow":true,
-                  "link":""
-               }
-            },            
+               "gateNo":"121"
+            },
+		   "airport":{
+			  "id":1000,
+			  "seq":1,			  
+			  "type":"AIRPORT",	  
+			  "isUserInput":false,
+			  "airport":"샤를 드 골 공항",
+			  "city":"파리",
+			  "rating":4,
+			  "reviewCnt":8912,
+			  "startTime":"13:20",
+			  "endTime":"10:30",
+			  "duration":"2시간 소요",
+			  "image":"",
+			   "latitude":43.6454759,
+			   "latitude":7.1821530000000005
+		   },
+		   "rentCar":{
+			  "id":2000,
+			  "seq":1,		
+			  "type":"RENTCAR",	  
+			  "isUserInput":false,
+			  "city":"파리",
+			  "isShow":true,
+			  "link":""
+		   }
             {
 				"id":222,
 				"seq":0,
@@ -82,7 +90,9 @@
 				"isWriteMemo":true,
 				"isReadMemo":false,
 				"isSearchRoute":true,
-				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg"
+				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
+				"latitude":36.656864,
+				"latitude":-7.7593434
 			},            
 			{
 				"id":301,
@@ -105,7 +115,9 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg",
 				"childMenu":[],
-				"childActivities":[]				
+				"childActivities":[],
+				"latitude":38.6913994,
+				"latitude":-9.2298356
 			},            
             {
                "id":511,
@@ -147,7 +159,9 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg",
 				"childMenu":[],
-				"childActivities":[]				
+				"childActivities":[],
+				"latitude":45.707485999999996,
+				"latitude":4.7718489
 			},
             {
                "id":600,
@@ -191,7 +205,9 @@
                "isWriteMemo":true,
                "isReadMemo":false,
                "terminal":"1",
-               "gateNo":"121"
+               "gateNo":"121",
+				"latitude":45.707485999999996,
+				"latitude":4.7718489
             },
 			{
                "id":101,
@@ -222,18 +238,7 @@
                "isWriteMemo":false,
                "isReadMemo":true,
                "terminal":"1",
-               "gateNo":"121",
-               "airport":{
-                  "id":1000,
-                  "airport":"샤를 드 골 공항",
-                  "city":"파리",
-                  "rating":4,
-                  "reviewCnt":8912,
-                  "startTime":"13:20",
-                  "endTime":"10:30",
-                  "duration":"2시간 소요",
-                  "image":""
-               }
+               "gateNo":"121"
             },
 			{
                "id":102,
@@ -352,7 +357,9 @@
 				 "isWriteMemo":false,
 				 "isReadMemo":false,
 				 "isSearchRoute":false,
-				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg"
+				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg",
+                "latitude":48.815573,
+                "latitude":2.224199
 			  },				  
 			  {
 				 "id":402,
@@ -372,7 +379,9 @@
 				 "isWriteMemo":true,
 				 "isReadMemo":false,
 				 "isSearchRoute":true,
-				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg"
+				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
+                "latitude":41.320004,
+                "latitude":2.0695258
 			  },
 			  {
 				 "id":403,
@@ -392,7 +401,9 @@
 				 "isWriteMemo":false,
 				 "isReadMemo":true,
 				 "isSearchRoute":false,
-				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg"
+				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg",
+                "latitude":43.6454759,
+                "latitude":7.1821530000000005
 			  }
          ]
       },
@@ -499,7 +510,9 @@
 				"isWriteMemo":true,
 				"isReadMemo":false,
 				"isSearchRoute":true,
-				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg"
+				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
+                "latitude":43.6454759,
+                "latitude":7.1821530000000005
 			},
             {
 				"id":201,
@@ -518,7 +531,9 @@
 				"isWriteMemo":false,
 				"isReadMemo":true,
 				"isSearchRoute":true,
-				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg"
+				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg",
+                "latitude":38.6913994,
+                "latitude":-9.2298356
 			},
             {
 				"id":202,
@@ -537,7 +552,9 @@
 				"isWriteMemo":true,
 				"isReadMemo":false,
 				"isSearchRoute":true,
-				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg"
+				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
+                "latitude":36.656864,
+                "latitude":-7.7593434
 			},
             {
 				"id":203,
@@ -556,7 +573,9 @@
 				"isWriteMemo":false,
 				"isReadMemo":true,
 				"isSearchRoute":true,
-				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg"
+				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg",
+                "latitude":45.707485999999996,
+                "latitude":4.7718489
 			},
             {
 				"id":204,
@@ -575,7 +594,9 @@
 				"isWriteMemo":true,
 				"isReadMemo":false,
 				"isSearchRoute":true,
-				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg"
+				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
+                "latitude":48.815573,
+                "latitude":2.224199
 			}
          ]
       },
@@ -759,7 +780,9 @@
 						"isSearchRoute":false,
 						"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg"
 					}
-				]				
+				],
+                "latitude":48.815573,
+                "latitude":2.224199
 			},
 			{
 				"id":351,
@@ -802,7 +825,9 @@
 						"image":"https://akamai.pizzahut.co.kr/images/products/detail/P_CF_US_1.jpg"
 					}
 				],
-				"childActivities":[]				
+				"childActivities":[],
+                "latitude":43.6454759,
+                "latitude":7.1821530000000005
 			},
 			{
 				"id":352,
@@ -830,7 +855,9 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg",
 				"childMenu":[],
-				"childActivities":[]				
+				"childActivities":[],
+                "latitude":41.320004,
+                "latitude":2.0695258
 			},
 			{
 				"id":353,
@@ -858,7 +885,9 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg",
 				"childMenu":[],
-				"childActivities":[]				
+				"childActivities":[],
+                "latitude":38.6913994,
+                "latitude":-9.2298356
 			},
 			{
 				"id":354,
@@ -886,7 +915,9 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg",
 				"childMenu":[],
-				"childActivities":[]				
+				"childActivities":[],
+                "latitude":36.656864,
+                "latitude":-7.7593434
 			}
          ]
       }
