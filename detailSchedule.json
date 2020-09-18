@@ -48,7 +48,7 @@
                "terminal":"1",
                "gateNo":"121"
             },
-		   "airport":{
+		   {
 			  "id":1000,
 			  "seq":1,			  
 			  "type":"AIRPORT",	  
@@ -61,10 +61,13 @@
 			  "endTime":"10:30",
 			  "duration":"2시간 소요",
 			  "image":"",
-			   "latitude":43.6454759,
-			   "latitude":7.1821530000000005
+			  "latitude":43.6454759,
+			  "latitude":7.1821530000000005,
+			  "isWriteMemo":true,
+			  "isReadMemo":false,
+			  "isSearchRoute":true
 		   },
-		   "rentCar":{
+		   {
 			  "id":2000,
 			  "seq":1,		
 			  "type":"RENTCAR",	  
