@@ -61,7 +61,7 @@
 			  "endTime":"10:30",
 			  "duration":"2시간 소요",
 			  "latitude":43.6454759,
-			  "latitude":7.1821530000000005,
+			  "longitude":7.1821530000000005,
 			  "isWriteMemo":true,
 			  "isReadMemo":false,
 			  "isSearchRoute":true,
@@ -95,7 +95,7 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
 				"latitude":36.656864,
-				"latitude":-7.7593434
+				"longitude":-7.7593434
 			},            
 			{
 				"id":301,
@@ -120,7 +120,7 @@
 				"childMenu":[],
 				"childActivities":[],
 				"latitude":38.6913994,
-				"latitude":-9.2298356
+				"longitude":-9.2298356
 			},            
             {
                "id":511,
@@ -164,7 +164,7 @@
 				"childMenu":[],
 				"childActivities":[],
 				"latitude":45.707485999999996,
-				"latitude":4.7718489
+				"longitude":4.7718489
 			},
             {
                "id":600,
@@ -210,7 +210,7 @@
                "terminal":"1",
                "gateNo":"121",
 				"latitude":45.707485999999996,
-				"latitude":4.7718489
+				"longitude":4.7718489
             },
 			{
                "id":101,
@@ -362,7 +362,7 @@
 				 "isSearchRoute":false,
 				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/17000190/17000190_01.jpg",
                 "latitude":48.815573,
-                "latitude":2.224199
+                "longitude":2.224199
 			  },				  
 			  {
 				 "id":402,
@@ -384,7 +384,7 @@
 				 "isSearchRoute":true,
 				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
                 "latitude":41.320004,
-                "latitude":2.0695258
+                "longitude":2.0695258
 			  },
 			  {
 				 "id":403,
@@ -406,7 +406,7 @@
 				 "isSearchRoute":false,
 				 "image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg",
                 "latitude":43.6454759,
-                "latitude":7.1821530000000005
+                "longitude":7.1821530000000005
 			  }
          ]
       },
@@ -515,7 +515,7 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
                 "latitude":43.6454759,
-                "latitude":7.1821530000000005
+                "longitude":7.1821530000000005
 			},
             {
 				"id":201,
@@ -536,7 +536,7 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg",
                 "latitude":38.6913994,
-                "latitude":-9.2298356
+                "longitude":-9.2298356
 			},
             {
 				"id":202,
@@ -557,7 +557,7 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
                 "latitude":36.656864,
-                "latitude":-7.7593434
+                "longitude":-7.7593434
 			},
             {
 				"id":203,
@@ -578,7 +578,7 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/18000559/18000559_01.jpg",
                 "latitude":45.707485999999996,
-                "latitude":4.7718489
+                "longitude":4.7718489
 			},
             {
 				"id":204,
@@ -599,7 +599,7 @@
 				"isSearchRoute":true,
 				"image":"https://trimg.interpark.com/r/c570388//Product/Housing/Hotel/16000332/16000332_01.jpg",
                 "latitude":48.815573,
-                "latitude":2.224199
+                "longitude":2.224199
 			}
          ]
       },
@@ -785,7 +785,7 @@
 					}
 				],
                 "latitude":48.815573,
-                "latitude":2.224199
+                "longitude":2.224199
 			},
 			{
 				"id":351,
@@ -830,7 +830,7 @@
 				],
 				"childActivities":[],
                 "latitude":43.6454759,
-                "latitude":7.1821530000000005
+                "longitude":7.1821530000000005
 			},
 			{
 				"id":352,
@@ -860,7 +860,7 @@
 				"childMenu":[],
 				"childActivities":[],
                 "latitude":41.320004,
-                "latitude":2.0695258
+                "longitude":2.0695258
 			},
 			{
 				"id":353,
@@ -890,7 +890,7 @@
 				"childMenu":[],
 				"childActivities":[],
                 "latitude":38.6913994,
-                "latitude":-9.2298356
+                "longitude":-9.2298356
 			},
 			{
 				"id":354,
@@ -920,7 +920,7 @@
 				"childMenu":[],
 				"childActivities":[],
                 "latitude":36.656864,
-                "latitude":-7.7593434
+                "longitude":-7.7593434
 			}
          ]
       }
